@@ -29,6 +29,8 @@ function App() {
   );
 
   return (
+    <>
+    <div style={{background: "hsl(195deg, 20%, 86%)", height: "500px", position: "fixed", top: "60%", width: "100%"}}></div>
     <main className={styles.characterEditor}>
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
@@ -89,6 +91,7 @@ function App() {
         />
       </div>
     </main>
+    </>
   );
 }
 
